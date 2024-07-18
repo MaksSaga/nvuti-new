@@ -1,20 +1,35 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss'
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        transparent: 'transparent',
+        white: '#ffffff',
+        midnight: '#10111C', // Midnight
+        charcoal: '#121420', // Charcoal
+        onyx: '#161826', // Onyx
+        sapphire: '#222537', // Sapphire
+        steel: '#3E425C', // Steel
+        slate: '#61657E', // Slate
+        ocean: '#263E64', // Ocean
+        navy: '#375582', // Navy
+        azure: '#1C65C9', // Azure
+        sky: '#1DACFE', // Sky
+        ice: '#C2E0FF', // Ice
+        mint: '#35DE94', // Mint
+        cherry: '#E52B48', // Cherry
+        gold: '#F2CC00', // Gold
+        coral: '#FF4B26', // Coral
       },
     },
   },
   plugins: [],
-};
-export default config;
+}
+export default config
