@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply w-full bg-midnight text-white;
+}
+
+.wrapper {
+  &_content {
+    @apply w-full max-w-[1712px] mx-auto px-14;
+  }
+}

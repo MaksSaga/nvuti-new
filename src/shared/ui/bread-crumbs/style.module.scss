@@ -1,0 +1,15 @@
+.crumbs {
+  @apply flex gap-2.5 items-center select-none pointer-events-none;
+
+  h2 {
+    @apply text-2xl font-bold;
+  }
+
+  img {
+    @apply w-6 h-auto;
+  }
+}
+
+.title {
+  @apply text-white font-bold text-2xl;
+}

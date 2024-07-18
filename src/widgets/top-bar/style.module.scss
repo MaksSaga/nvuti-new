@@ -1,0 +1,7 @@
+.top_bar {
+  @apply bg-onyx w-full flex py-2 max-h-14 fixed top-0 left-0 items-center justify-center h-full;
+
+  img {
+    @apply max-h-[40px] h-auto w-full;
+  }
+}
